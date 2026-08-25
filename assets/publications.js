@@ -325,6 +325,7 @@
         .map(entry => ({...entry, fields:parseFields(entry.raw)}))
         .filter(entry => entry.fields.title);
       render(parsed);
+      setupPublicationCollapse();
     })
     .catch(error => {
       console.error("Could not load publications.bib", error);
