@@ -1,14 +1,6 @@
 # Mathematical Biomedicine Group website
 
-Starter static website for the Mathematical Biomedicine Group, University of Manchester.
-
-## Deploy with GitHub Pages
-
-1. Create a GitHub repository, e.g. `mbg-lab`.
-2. Upload `index.html` and the `assets/` folder.
-3. Go to **Settings → Pages**.
-4. Choose **Deploy from a branch**, select `main` and `/root`.
-5. GitHub will publish the site.
+Static website for the Mathematical Biomedicine Group, University of Manchester.
 
 ## Custom domain
 
@@ -17,10 +9,6 @@ Use `mbg-lab.org` once registered. In GitHub Pages, add the custom domain and co
 ## Updating the site
 
 For the first version, content is intentionally contained in `index.html` so it is easy to understand and maintain. A later iteration can migrate publications, people and projects to Markdown/Hugo once the content architecture is settled.
-
-## Publication note
-
-Google Scholar blocks automated retrieval. The current starter therefore includes a curated set of publications verified against the University of Manchester Research Explorer. Replace/expand these records with a BibTeX export from Google Scholar or an ORCID/BibTeX workflow before launch.
 
 ## Publication DOI links
 
@@ -44,12 +32,6 @@ url = {https://...},
 repository = {Zenodo},
 ```
 
-The replication-data entry for *High resolution daily profiles of tissue adrenal steroids by portable automated collection* has been moved from `publications.bib` to `data.bib`.
-
 ## Code & Models
 
 Code and model outputs are maintained separately in `models.bib`. Add or edit BibTeX entries there and the Code & Models section will update automatically.
-
-The initial entry points to:
-
-`https://hpaaxis.streamlit.app/`
