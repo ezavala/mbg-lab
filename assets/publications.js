@@ -152,7 +152,7 @@
 
     target.innerHTML = years.map(year => {
       const pubs = grouped.get(year)
-        .sort((a,b) => (a.fields.title || "").localeCompare(b.fields.title || ""))
+        // .sort((a,b) => (a.fields.title || "").localeCompare(b.fields.title || ""))
         .map(entry => {
           const f = entry.fields;
           const title = escapeHtml(f.title || "Untitled publication");
