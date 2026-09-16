@@ -310,6 +310,10 @@ body.modal-open{overflow:hidden}
   object-fit:contain;
   object-position:left center;
 }
+.endotrain-logo {
+  width: 324px;
+  height:97px;
+}
 @media(max-width:800px){
   .funder-logos{
     flex-direction:row;
